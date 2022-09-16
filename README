@@ -3,4 +3,11 @@ Clone the Repository
 git clone https://github.com/esra-ozturk/sync_folders.git
 Move to the root directory and run :
 
+Windows:
 python main.py path_source path_replica synchronization_interval path_log_file
+
+Linux/Ubuntu
+
+python3 main.py path_source path_replica synchronization_interval path_log_file
+
+Note that synchronization_interval is in minutes, e.g 1 . 
